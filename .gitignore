@@ -1,0 +1,9 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+# Ignore temporary files
+*.swp
+*.swo
+*.DS_Store

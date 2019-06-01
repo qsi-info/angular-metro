@@ -1,0 +1,22 @@
+{
+  "name": "angular-metro",
+  "version": "0.0.0",
+  "authors": [
+    "Alexandre Page <alexgroove24@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "metro.js"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "font-awesome": "~4.3.0"
+  }
+}

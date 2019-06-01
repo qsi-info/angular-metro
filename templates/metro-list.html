@@ -1,0 +1,27 @@
+<div class="metro-list">
+
+	<fieldset>
+		<legend>
+		{{title}}
+		<a ng-show="newItemHref" href="{{newItemHref}}" class="pull-right">
+			<i class="fa fa-plus-circle"></i>&nbsp;{{newItemTitle}}
+		</a>		
+		</legend>
+	</fieldset>		
+
+
+	<div class="metro">
+	  <div data-role="listview" class="listview-outlook">
+
+	    <a href="{{manageItemHref}}/{{item.id}}" class="list" ng-repeat="item in items">
+	      <div class="list-content">
+	        <span class="list-title" ng-show="item.title" ng-bind="item.title"></span>
+	        <span class="list-subtitle" ng-show="item.subtitle" ng-bind="item.subtitle"></span>
+	        <span class="list-remark" ng-show="item.remark" ng-bind="item.remark"></span>
+	      </div>
+	    </a>
+
+	  </div>
+	</div>
+
+</div>
